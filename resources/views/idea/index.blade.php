@@ -107,3 +107,5 @@
         {{ $ideas->links() }}
     </div>
 </x-app-layout>
+
+
