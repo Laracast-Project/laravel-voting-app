@@ -13,10 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::view('/idea', 'show');
+Route::get('/', [\App\Http\Controllers\IdeaController::class, 'index'])->name('idea.index');
+Route::get('/ideas/{idea:slug}', [\App\Http\Controllers\IdeaController::class, 'show'])->name('idea.show');
 
 require __DIR__.'/auth.php';
