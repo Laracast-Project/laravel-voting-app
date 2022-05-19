@@ -42,7 +42,7 @@
                     }
                 "
                 class="idea-container hover:shadow-card transition
-                duration-150 ease-in bg-white rounded-xl flex cursor-pointer"
+                duration-150 ease-in bg-white rounded-xl flex cursor-pointer "
             >
                 <div class="hidden md:block border-r border-gray-100 px-5 py-8">
                     <div class="text-center">
